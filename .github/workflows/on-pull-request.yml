@@ -27,4 +27,4 @@ jobs:
         run: npm run validate
 
       - name: Check if README is up to date
-        run: ./check-if-readme-is-up-to-date.sh
+        run: ../../check-if-readme-is-up-to-date
