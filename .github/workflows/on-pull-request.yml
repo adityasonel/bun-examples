@@ -1,0 +1,33 @@
+name: '🏗️ Generate and Validate README'
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  doc-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Checkout repsitory
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate README
+        run: npm run docs
+
+      - name: Validate README frontmatter
+        run: npm run validate
+
+      - name: Check if README is up to date
+        run: |
+          chmod +x ./check-if-readme-is-up-to-date.sh
+          ./check-if-readme-is-up-to-date.sh
+        shell: bash
