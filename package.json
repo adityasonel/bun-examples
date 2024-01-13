@@ -1,0 +1,21 @@
+{
+  "name": "bun-examples",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "gray-matter": "^4.0.3",
+    "markdown-magic": "^2.6.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
