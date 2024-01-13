@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Hello World in Bun",
+    "description": "A simple hello world example running on bun runtime.",
+    "githubUrl": "https://github.com/adityasonel/bun-examples/tree/master/hello-world"
+  },
+  {
+    "name": "Simple http-server",
+    "description": "A simple http server example based on `Bun.serve`.",
+    "githubUrl": "https://github.com/adityasonel/bun-examples/tree/master"
+  }
+]

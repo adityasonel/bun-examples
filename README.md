@@ -28,10 +28,12 @@ Each example contains a `README.md` with an explanation about the example and it
 
 **Have an example?** Submit a PR or [open an issue](https://github.com/adityasonel/bun-examples/issues). ⚡️
 
-| Example                                                                               |                   Author                    |
-| :------------------------------------------------------------------------------------ | :-----------------------------------------: |
-| **[Hello World in Bun]()** <br/> A simple hello world example running on bun runtime. | [Aditya S.](https://github.com/adityasonel) |
-| **[Simple http-server]()** <br/> A simple http server example based on `Bun.serve`.   | [Aditya S.](https://github.com/adityasonel) |
+<!-- AUTO-GENERATED-CONTENT:START (EXAMPLES_TABLE)  generated w/ `npm run docs` -->
+| Example | Author |
+|:-------|:------:|
+| **[Hello World In Bun](https://github.com/adityasonel/bun-examples/tree/master/hello-world)** <br/> A simple hello world example running on bun runtime. | [adityasonel](http://github.com/adityasonel) |
+| **[Simple Http Server](https://github.com/adityasonel/bun-examples/tree/master)** <br/> A simple http server example based on `Bun.serve`. | [adityasonel](http://github.com/adityasonel) |
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Contributing
 
